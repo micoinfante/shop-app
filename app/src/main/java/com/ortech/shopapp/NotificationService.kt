@@ -29,6 +29,7 @@ class NotificationService : FirebaseMessagingService() {
 
     override fun onNewToken(p0: String) {
         Log.d("Notification Token", "Refreshed Token: $p0")
+        Log.d("New Token", "Refreshed Token: $p0")
     }
 
     @SuppressLint("ServiceCast")
